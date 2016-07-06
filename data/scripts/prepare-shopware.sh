@@ -1,6 +1,9 @@
 #!/bin/bash
 
-git clone https://github.com/shopware/shopware.git /var/www/html
+git clone https://github.com/ShopwareHackathon/shopware.git /var/www/html
+
+cd /var/www/html
+git checkout 5.2
 
 chmod -Rf 0777 /var/www/html/var
 chmod -Rf 0777 /var/www/html/web
